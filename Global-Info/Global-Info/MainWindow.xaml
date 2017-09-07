@@ -6,5 +6,8 @@
         xmlns:local="clr-namespace:Global_Info"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid/>
+    <Grid>
+        <Label x:Name="Label1" Content="EUR/USD" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="59"/>
+        <Label x:Name="Label2" Content="label2" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="59"/>
+    </Grid>
 </Window>
