@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label x:Name="Label1" Content="EUR/USD" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="59"/>
-        <Label x:Name="Label2" Content="label2" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="59"/>
+        <Label x:Name="Label1" Content="Weather in Kryvyi Rih" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="126"/>
+        <Label x:Name="Label2" Content="" HorizontalAlignment="Left" Margin="141,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="59" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#00000000"/>
+        <Button Name="Button1" Content="Get Weather" HorizontalAlignment="Left" Height="52" Margin="136,135,0,0" VerticalAlignment="Top" Width="193" Click="Button1_Click"/>
     </Grid>
 </Window>

@@ -24,27 +24,14 @@ namespace Global_Info
         public MainWindow()
         {
             InitializeComponent();
-            
-            var web = new HtmlWeb();
-
-            var page = web.Load("https://finance.yahoo.com/currencies");
-
-            HtmlNode eurusd = page.DocumentNode.SelectSingleNode("//*[@id='yfin-list']/div[2]/div/table/tbody/tr[3]/td[3]");
-
-            if (eurusd != null)
-            {
-                Label2.Content = eurusd.InnerText;
-            }
-            else
-                Label2.Content = "No info";
+            new Presenter(this);
         }
 
-        
-          
+        public event EventHandler myEvent = null;
 
-
-
-
-
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            myEvent.Invoke(sender, e);
+        }
     }
 }
