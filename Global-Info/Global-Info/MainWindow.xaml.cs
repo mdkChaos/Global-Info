@@ -31,7 +31,9 @@ namespace Global_Info
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
+            (sender as Button).IsEnabled = false;
             myEvent.Invoke(sender, e);
+            (sender as Button).IsEnabled = true;
         }
     }
 }
