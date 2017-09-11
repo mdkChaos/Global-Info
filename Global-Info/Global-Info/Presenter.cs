@@ -17,7 +17,7 @@ namespace Global_Info
             model = new Model();
             this.mainWindow = mainWindow;
             city = model.GetURLAndNameCitys("http://meteo.gov.ua", "//div[@class='selec1']/a[@class='m13']");
-            if (city!=null)
+            if (city != null)
             {
                 foreach (var item in city)
                 {
@@ -44,16 +44,6 @@ namespace Global_Info
             {
                 mainWindow.Label2.Content = "No info";
             }
-
-            //var city = model.GetData("http://meteo.gov.ua/ua/33345", "//*[@class='hdr_fr_bl1_sity']");
-            //if (city != null)
-            //{
-            //    mainWindow.Label3.Content = city;
-            //}
-            //else
-            //{
-            //    mainWindow.Label1.Content = "No info";
-            //}
         }
     }
 }
