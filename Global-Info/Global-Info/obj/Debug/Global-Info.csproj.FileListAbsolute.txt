@@ -34,3 +34,21 @@ H:\VS Projects\GitHub\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.
 H:\VS Projects\GitHub\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.csproj.CoreCompileInputs.cache
 H:\VS Projects\GitHub\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.exe
 H:\VS Projects\GitHub\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.pdb
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.csprojResolveAssemblyReference.cache
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\MainWindow.g.cs
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\App.g.cs
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info_MarkupCompile.cache
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info_MarkupCompile.lref
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.exe
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.pdb
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\bin\Debug\Global-Info.exe.config
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\bin\Debug\Global-Info.exe
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\bin\Debug\Global-Info.pdb
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\MainWindow.baml
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.g.resources
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global_Info.Properties.Resources.resources
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.csproj.GenerateResource.Cache
+C:\Users\Stas\source\repos\Global-Info\Global-Info\Global-Info\obj\Debug\Global-Info.csproj.CoreCompileInputs.cache
