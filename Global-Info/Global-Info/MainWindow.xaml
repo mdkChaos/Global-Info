@@ -6,10 +6,137 @@
         xmlns:local="clr-namespace:Global_Info"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
     <Grid>
-        <Label x:Name="Label1" Content="Weather in " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="84" FontFamily="MV Boli" FontWeight="Bold"/>
-        <Label x:Name="Label2" Content="" HorizontalAlignment="Left" Margin="286,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.372,1.33" Width="59" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Yellow" FontWeight="Bold" FontFamily="MV Boli"/>
-        <Button Name="Button1" Content="Get Weather" HorizontalAlignment="Left" Height="52" Margin="136,135,0,0" VerticalAlignment="Top" Width="193" Click="Button1_Click"/>
-        <ComboBox Name="ComboBox1"  HorizontalAlignment="Left" Margin="99,10,0,0" VerticalAlignment="Top" Width="172" Height="29" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="Label3" 
+            Content="Weather in "
+            HorizontalAlignment="Left" 
+            Margin="10,10,0,0" VerticalAlignment="Top" 
+            RenderTransformOrigin="0.372,1.33" Width="84" 
+            FontFamily="MV Boli" 
+            FontWeight="Bold"/>
+
+        <Label x:Name="Label4"
+            Content=""
+            HorizontalAlignment="Left" 
+            Margin="286,10,0,0" VerticalAlignment="Top"
+            RenderTransformOrigin="0.372,1.33" Width="59"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center" 
+            Background="Yellow" FontWeight="Bold" 
+            FontFamily="MV Boli"/>
+
+        <Button x:Name="Button2"
+            Content="Get All Info" 
+            HorizontalAlignment="Left" 
+            Height="52" Margin="152,257,0,0"
+            VerticalAlignment="Top" 
+            Width="193" 
+            Click="Button1_Click"/>
+
+        <ComboBox x:Name="ComboBox2"  
+            HorizontalAlignment="Left"
+            Margin="99,10,0,0"
+            VerticalAlignment="Top" 
+            Width="172" Height="29"
+            FontFamily="Times New Roman"
+            FontWeight="Bold"
+            FontSize="14"/>
+        <ComboBox x:Name="ComboBox1_Copy4"  
+            HorizontalAlignment="Left"
+            Margin="99,60,0,0"
+            VerticalAlignment="Top" 
+            Width="172" Height="29"
+            FontFamily="Times New Roman"
+            FontWeight="Bold"
+            FontSize="14"/>
+        <Label x:Name="Label1_Copy4" 
+            Content="Currencies "
+            HorizontalAlignment="Left" 
+            Margin="10,60,0,0" VerticalAlignment="Top" 
+            RenderTransformOrigin="0.372,1.33" Width="84" 
+            FontFamily="MV Boli" 
+            FontWeight="Bold"/>
+        <ComboBox x:Name="ComboBox1_Copy5"  
+            HorizontalAlignment="Left"
+            Margin="99,105,0,0"
+            VerticalAlignment="Top" 
+            Width="172" Height="29"
+            FontFamily="Times New Roman"
+            FontWeight="Bold"
+            FontSize="14"/>
+        <Label x:Name="Label1_Copy5" 
+            Content="Goods "
+            HorizontalAlignment="Left" 
+            Margin="10,105,0,0" VerticalAlignment="Top" 
+            RenderTransformOrigin="0.372,1.33" Width="84" 
+            FontFamily="MV Boli" 
+            FontWeight="Bold"/>
+        <ComboBox x:Name="ComboBox1_Copy6"  
+            HorizontalAlignment="Left"
+            Margin="99,151,0,0"
+            VerticalAlignment="Top" 
+            Width="172" Height="29"
+            FontFamily="Times New Roman"
+            FontWeight="Bold"
+            FontSize="14"/>
+        <Label x:Name="Label1_Copy6" 
+            Content="Stocks "
+            HorizontalAlignment="Left" 
+            Margin="10,151,0,0" VerticalAlignment="Top" 
+            RenderTransformOrigin="0.372,1.33" Width="84" 
+            FontFamily="MV Boli" 
+            FontWeight="Bold"/>
+        <ComboBox x:Name="ComboBox1_Copy7"  
+            HorizontalAlignment="Left"
+            Margin="99,195,0,0"
+            VerticalAlignment="Top" 
+            Width="172" Height="29"
+            FontFamily="Times New Roman"
+            FontWeight="Bold"
+            FontSize="14"/>
+        <Label x:Name="Label1_Copy7" 
+            Content="Crypto "
+            HorizontalAlignment="Left" 
+            Margin="10,195,0,0" VerticalAlignment="Top" 
+            RenderTransformOrigin="0.372,1.33" Width="84" 
+            FontFamily="MV Boli" 
+            FontWeight="Bold"/>
+        <Label x:Name="Label2_Copy1"
+            Content=""
+            HorizontalAlignment="Left" 
+            Margin="286,60,0,0" VerticalAlignment="Top"
+            RenderTransformOrigin="0.372,1.33" Width="59"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center" 
+            Background="Yellow" FontWeight="Bold" 
+            FontFamily="MV Boli"/>
+        <Label x:Name="Label2_Copy"
+            Content=""
+            HorizontalAlignment="Left" 
+            Margin="286,105,0,0" VerticalAlignment="Top"
+            RenderTransformOrigin="0.372,1.33" Width="59"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center" 
+            Background="Yellow" FontWeight="Bold" 
+            FontFamily="MV Boli"/>
+        <Label x:Name="Label2_Copy2"
+            Content=""
+            HorizontalAlignment="Left" 
+            Margin="286,151,0,0" VerticalAlignment="Top"
+            RenderTransformOrigin="0.372,1.33" Width="59"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center" 
+            Background="Yellow" FontWeight="Bold" 
+            FontFamily="MV Boli"/>
+        <Label x:Name="Label2_Copy3"
+            Content=""
+            HorizontalAlignment="Left" 
+            Margin="286,195,0,0" VerticalAlignment="Top"
+            RenderTransformOrigin="0.372,1.33" Width="59"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center" 
+            Background="Yellow" FontWeight="Bold" 
+            FontFamily="MV Boli"/>
     </Grid>
 </Window>
