@@ -13,11 +13,11 @@ namespace Global_Info
         SortedDictionary<string, string> city = new SortedDictionary<string, string>();
         //SortedDictionary<string, string> currencies = new SortedDictionary<string, string>();
         List<string> curname = new List<string>();
-        string eurusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[3]/td[3]";
-        string gbpusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[5]/td[3]";
-        string audusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[6]/td[3]";
-        string usdjpy = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[4]/td[3]";
-        string nzdusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[7]/td[3]";
+        //string eurusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[3]/td[3]";
+        //string gbpusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[5]/td[3]";
+        //string audusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[6]/td[3]";
+        //string usdjpy = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[4]/td[3]";
+        //string nzdusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[7]/td[3]";
 
 
         public Presenter(MainWindow mainWindow)
