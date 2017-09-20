@@ -35,5 +35,10 @@ namespace Global_Info
             myEvent.Invoke(sender, e);
             (sender as Button).IsEnabled = true;
         }
+
+        private void ComboBox1_Copy4_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

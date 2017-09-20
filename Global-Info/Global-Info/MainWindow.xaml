@@ -49,7 +49,7 @@
             Width="172" Height="29"
             FontFamily="Times New Roman"
             FontWeight="Bold"
-            FontSize="14"/>
+            FontSize="14" SelectionChanged="ComboBox1_Copy4_SelectionChanged"/>
         <Label x:Name="Label1_Copy4" 
             Content="Currencies "
             HorizontalAlignment="Left" 

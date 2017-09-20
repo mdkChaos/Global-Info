@@ -13,9 +13,11 @@ namespace Global_Info
         SortedDictionary<string, string> city = new SortedDictionary<string, string>();
         //SortedDictionary<string, string> currencies = new SortedDictionary<string, string>();
         List<string> curname = new List<string>();
-        string eurusd = "//tr[@class='data-rowEURUSD=X']/td[@class='data-col2']";
-        string gbpusd = "//tr[@class='data-rowGBPUSD=X']/td[@class='data-col2']";
-        string audusd = "//tr[@class='data-rowAUDUSD=X']/td[@class='data-col2']";
+        //string eurusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[3]/td[3]";
+        //string gbpusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[5]/td[3]";
+        //string audusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[6]/td[3]";
+        //string usdjpy = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[4]/td[3]";
+        //string nzdusd = "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[7]/td[3]";
 
 
         public Presenter(MainWindow mainWindow)
@@ -42,9 +44,8 @@ namespace Global_Info
             curname.Add("GBP/USD");
             curname.Add("AUD/USD");
             curname.Add("NZD/USD");
-            curname.Add("USD/CHF");
             curname.Add("USD/JPY");
-            curname.Add("USD/CAD");
+           
             if (curname != null)
             {
                 foreach (var item in curname)
@@ -56,8 +57,42 @@ namespace Global_Info
 
         private void mainWindow_myEvent(object sender, EventArgs e)
         {
+            string siteUrl2 = mainWindow.ComboBox1_Copy4.Text;
             string siteUrl = city[mainWindow.ComboBox2.Text];
+
+            if(mainWindow.ComboBox1_Copy4.Text == "EUR/USD")
+            {
+                var fininfo = model.GetData("https://finance.yahoo.com/currencies", "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[3]/td[3]");
+                mainWindow.Label2_Copy1.Content = fininfo;
+            }
+
+            if (mainWindow.ComboBox1_Copy4.Text == "GBP/USD")
+            {
+                var fininfo = model.GetData("https://finance.yahoo.com/currencies", "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[5]/td[3]");
+                mainWindow.Label2_Copy1.Content = fininfo;
+            }
+
+            if (mainWindow.ComboBox1_Copy4.Text == "AUD/USD")
+            {
+                var fininfo = model.GetData("https://finance.yahoo.com/currencies", "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[6]/td[3]");
+                mainWindow.Label2_Copy1.Content = fininfo;
+            }
+
+            if (mainWindow.ComboBox1_Copy4.Text == "NZD/USD")
+            {
+                var fininfo = model.GetData("https://finance.yahoo.com/currencies", "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[7]/td[3]");
+                mainWindow.Label2_Copy1.Content = fininfo;
+            }
+
+            if (mainWindow.ComboBox1_Copy4.Text == "USD/JPY")
+            {
+                var fininfo = model.GetData("https://finance.yahoo.com/currencies", "//*[@id='yfin-list']/div[2]/div/table/tbody/tr[4]/td[3]");
+                mainWindow.Label2_Copy1.Content = fininfo;
+            }
+
+
             var temperature = model.GetData(siteUrl, "//*[@id='curWeatherT']");
+
             if (temperature != null)
             {
                 mainWindow.Label4.Content = temperature + " °C";
